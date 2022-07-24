@@ -5,18 +5,19 @@
 }
 
 h1{
-    padding-top: 10rem;
+    padding-top: 8rem;
 }
 
 img{
     width: 9%;
-    height: 10%;
+    height: 9%;
     border-radius: 50%;
+    padding-top: 2px;
 }
 
 .copyright-text {
     margin: 0;
-    padding-top: 0.4rem;
+    padding-top: 0.3rem;
 }
 
 .copyright-text a{
@@ -25,13 +26,12 @@ img{
 
 .social-icons{
     padding-left: 0;
-    margin-bottom: 0;
+    margin-bottom: 1px;
     list-style: none;
 }
 
 .social-icons li {
     display: inline-block;
-    margin-bottom: 4px;
 }
 
 .social-icons li.title {
@@ -53,8 +53,7 @@ img{
     text-align: center;
     margin-right: 8px;
     border-radius: 100%;
-    -webkit-transition: all .2s linear;
-    -o-transition: all .2s linear;
+    transition: all .2s linear;
 }
 
 .social-icons a:active,
@@ -88,6 +87,10 @@ img{
 }
 
 @media (min-width:320px) and (max-width:600px){
+    h1{
+        padding-top: 1.5rem;
+    }
+
     img{
         width:20%;
         height:7%;
